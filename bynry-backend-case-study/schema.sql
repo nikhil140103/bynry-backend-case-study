@@ -1,5 +1,3 @@
--- Database Schema for Product Inventory
-
 CREATE TABLE Products (
     product_id SERIAL PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
